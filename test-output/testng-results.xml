@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67" started-at="2016-07-29T10:23:10Z" finished-at="2016-07-29T10:23:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67" started-at="2016-07-29T10:23:10Z" finished-at="2016-07-29T10:23:10Z">
+      <class name="day7.TestNGLearn2">
+        <test-method status="PASS" signature="login()[pri:0, instance:day7.TestNGLearn2@11531931]" name="login" duration-ms="26" started-at="2016-07-29T15:53:10Z" finished-at="2016-07-29T15:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sendmail()[pri:0, instance:day7.TestNGLearn2@11531931]" name="sendmail" duration-ms="2" started-at="2016-07-29T15:53:10Z" depends-on-methods="day7.TestNGLearn2.login" finished-at="2016-07-29T15:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendmail -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:day7.TestNGLearn2@11531931]" name="logout" duration-ms="3" started-at="2016-07-29T15:53:10Z" depends-on-methods="day7.TestNGLearn2.sendmail, day7.TestNGLearn2.login" finished-at="2016-07-29T15:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- day7.TestNGLearn2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
